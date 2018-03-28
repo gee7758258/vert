@@ -1,0 +1,4 @@
+I found that there is a bug. The number of the orthologs has been reduced greatly. I think this is because, when choosing the 
+best hit per taxon, I choose the radom one in both procedure. That's why they rarely matched in the merging process.
+
+I can be reasonable to only filter the first blast result and leave the reciprocal result as a nearly raw one.
